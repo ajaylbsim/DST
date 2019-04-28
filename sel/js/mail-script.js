@@ -16,7 +16,7 @@ function myFunction() {
 //	
 	
 	
-	if(("a" === usernameValue)&&("b" === passwordValue) ){
+	if(("adminu" === usernameValue)&&("adminp" === passwordValue) ){
 		window.location.href = "http://www.khsbihar.com/admin.html";
 	}else{
 		alert("Invalid username or password. Please try again!");
