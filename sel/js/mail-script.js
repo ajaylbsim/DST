@@ -14,15 +14,20 @@ function myFunction() {
 //		alert("Invalid username or password. Please try again!");
 //	}
 //	
-	
-	
-	if(("adminu" === usernameValue)&&("adminp" === passwordValue) ){
+
+
+	// document.getElementById("amount1").value = ""+usernameValue.trim();
+	// document.getElementById("amount3").value = ""+passwordValue.trim();
+
+
+	console.log(""+usernameValue+"    "+passwordValue)
+
+	if(("admin101" === usernameValue.trim())&&("admin101" === passwordValue.trim()) ){
 		window.location.href = "http://www.khsbihar.com/admin.html";
 	}else{
 		alert("Invalid username or password. Please try again!");
 	}
-	
-	
+
 }
      $(document).ready(function() {
         var form = $('#myForm'); // contact form
