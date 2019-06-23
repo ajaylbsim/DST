@@ -24,6 +24,11 @@ function myFunction() {
 
 	if(("admin101" === usernameValue.trim())&&("admin101" === passwordValue.trim()) ){
 		window.location.href = "http://www.khsbihar.com/admin.html";
+	}else if(("admin 101" === usernameValue.trim())&&("admin 101" === passwordValue.trim()) ){
+		window.location.href = "http://www.khsbihar.com/admin.html";
+	}
+	else if(("admin" === usernameValue.trim())&&("admin" === passwordValue.trim()) ){
+		window.location.href = "http://www.khsbihar.com/admin.html";
 	}else{
 		alert("Invalid username or password. Please try again!");
 	}
